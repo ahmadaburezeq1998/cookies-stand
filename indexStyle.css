@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("img/Untitled-1.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+#titlehead{
+    border: blanchedalmond 3px solid;
+    background-color: #F94401 ;
+    border-radius: 10px;
+    text-align: center;
+    width:400px;
+    height: 70px;
+    padding-top: 15px;
+    position: relative;
+    left:37%;
+    background-blend-mode:lighten ;
+}
+li{
+    
+    font-weight: bold;
+    margin: 10px;
+    background: orange;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#logosalmon{
+    position: absolute;
+    width: 300px;
+    left: 0%;
+    top: 0% ;
+}
+#saleslink{
+    font-family: fantasy;
+    font-size: 200%;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    border-radius: 10%;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(4, 109, 39, 0.698);
+}
+#ourbranches{
+    margin-left: 100px;
+    font-size: 300%;
+    background-color: orange;
+    width: 40%;
+    text-align: center;
+    border-radius: 50%;
+}
+ul{
+    text-shadow: orangered;
+    font-size: 150%;
+    margin-left: 10%;
+}
+#openheading{
+    background-color: rgb(214, 91, 20);
+    font-size: 300%;
+    border-radius: 40%;
+    text-align: center;
+}
+#reachus{
+    background-color: rgb(214, 91, 20);
+    font-size: 200%;
+    border-radius: 40%;
+    text-align: center;
+}
+#imagesdiv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* margin-top: 20%; */
+    padding-top: 20%;
+    border-radius: 10%;
+}

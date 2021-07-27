@@ -1,4 +1,25 @@
 table,th,tr,td{
     border: 3px solid #4505bd;
     border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    
+}
+body {
+    background-image: url("img/Untitled-1.png");
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+#gotomain{
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    font-size:130%;
+    background-color: orange;
+    border-radius:30%;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
 }

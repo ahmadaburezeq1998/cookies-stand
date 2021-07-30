@@ -86,6 +86,13 @@ function maketheheader(){
 }
 
 
+
+
+
+
+
+
+
 maketheheader();
 
 
@@ -147,3 +154,43 @@ function makethefooter(){
 }
 
 makethefooter();
+////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+window.onload=function(){///this is from google
+    let form=document.getElementById('iform');
+    form.addEventListener('submit',submitter);
+  }
+  
+function submitter(event) {
+    event.preventDefault();
+    console.log(event);
+  let name=event.target.ilocation.value;
+  let max=event.target.imaxcustomers.value;
+  let min=event.target.imincustomers.value;
+  let avg=event.target.iavgcookies.value;
+    console.log(name,max,min,avg);
+  let addedshop=new Branches(name,parseInt(min),parseInt(max),parseFloat(avg));
+  console.log(addedshop);
+  table.textContent="";
+
+
+maketheheader();
+for (let index = 0; index < allShops.length; index++) 
+{   allShops[index].cookiesEachHour=[];
+    allShops[index].customersEachHour=[];
+    allShops.total=0;
+    console.log(allShops[index]);
+    allShops[index].calculatingCustomersEachHour();
+    allShops[index].calculatingCookiesEachHOur();
+    allShops[index].renderTable();
+    
+}
+makethefooter();
+}

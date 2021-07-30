@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="parent">   </div>
+    <div id="parent"> </div>
     <script src="app.js"></script>
     <a href="index.html" id="gotomain">go to the main website</a>
 
 
+    <form id="iform">
+        <fieldset>
+            <label for="ilocation">input a location name</label>
+            <input type="text" id="ilocation" name="ilocation">
+            <br>
+            <label for="imaxcustomers">input max customers</label>
+            <input type="number" id="imaxcustomers" name="imaxcustomers">
+            <br>
+            <label for="imincustomers">input min customers</label>
+            <input type="number" id="imincustomers" name="imincustomers">
+            <br>
+            <label for="iavgcookies">input avg cookies </label>
+            <input type="float" id="iavgcookies" name="iavgcookies">
+            <br>
+            <input type="submit" value="add store">
+
+        </fieldset>
+    </form>
+
 </body>
+
 </html>
